@@ -1,0 +1,195 @@
+\documentclass[12pt,a4paper,spanish]{article}
+\usepackage[spanish]{babel}
+\usepackage [T1]{fontenc}
+\usepackage [latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array}
+	  \oddsidemargin 0in
+      \textwidth 6.75in
+      \topmargin 0in
+      \textheight 10.0in
+      \parindent 0em
+      \parskip 2ex
+\usepackage{anysize}
+\marginsize{3cm}{2cm}{1.0cm}{1.0cm}
+
+\pagestyle{plain}
+
+\begin{document} 
+\title{
+\begin{table}[!h]
+	\begin{tabular}{m{2cm}m{15cm}}
+		\multicolumn{1}{l}{}
+		 \includegraphics[scale=0.25, bb=0 0 0 0]{logo-fiuba.png} & 
+		 \begin{center}
+		 	\begin{LARGE}
+				Universidad de Buenos Aires	\linebreak \linebreak		 							Facultad de Ingenier\'{i}a  \linebreak \linebreak
+				7112 - Estrucutra de las Organizaciones \linebreak \linebreak
+				2do. Cuatrimestre de 2009
+			\end{LARGE}
+		 \end{center}\\
+\end{tabular}
+\end{table}
+\begin{Large}
+ \begin{center}
+		\underline{An\'{a}lisis Caso H\'{e}rcules} \linebreak \linebreak
+        Grupo Nro:	R2
+\end{center}
+\end{Large}
+}
+\date{}
+\maketitle
+
+\thispagestyle{empty}
+
+\author{
+\begin{Large}
+\begin{center}
+		\underline{Integrantes}  \linebreak 
+\end{center}
+\end{Large}
+\begin{center}
+	\begin{tabular}{|| c | c | c ||}
+		\hline
+		\begin{large}Apellido,Nombre\end{large} & 
+		\begin{large}Padr\'{o}n Nro.\end{large} & 
+		\begin{large}E-mail\end{large}\\
+		\hline
+		Bruno Tom\'as & 88449 & tbruno88@gmail.com\\
+		\hline
+		Chiabrando Alejandra Cecilia & 86.863 & achiabrando@gmail.com\\
+		\hline
+		Fern\'{a}ndez Nicol\'{a}s  & 88.599 & nflabo@gmail.com\\
+		\hline
+		Invernizzi Esteban Ignacio & 88.817 & invernizzie@gmail.com\\
+		\hline
+		Medbo Vegard & \- & vegard.medbo@gmail.com\\
+		\hline
+		Meller Gustavo Ariel & 88.435 & gustavo\_meller@hotmail.com\\
+		\hline
+		Mouso Nicol\'as & 88.528 & nicolasgnr@gmail.com\\
+		\hline
+		Mu\~noz Facorro Juan Mart\'in & 84.672 & juan.facorro@gmail.com\\
+		\hline
+		Wolfsdorf Diego & 88.162 & diegow88@gmail.com\\
+		\hline
+	\end{tabular}
+\end{center}
+}
+
+\newpage
+\setcounter{page}{1}
+\tableofcontents
+
+\newpage
+\section{Historia de la Empresa}
+Elevadores H\'{e}rcules S.A., se estableci\'{o} en Buenos Aires en 1919 como una oficina de contratistas.
+Su planta principal est\'{a} ubicada en Buenos Aires. Adem\'{a}s tiene oficinas comerciales en las 18 ciudades m\'{a}s importantes del pa\'{i}s participando con m\'{a}s del 60 \% del mercado nacional.
+
+\subsection{Avance Cronol\'{o}gico de la empresa}
+\begin{enumerate}
+	\item \underline{1966}. La compa\~{n}\'{i}a produc\'{i}a 1650 elevadores. 
+	\item \underline{1970}. Hacia esta d\'{e}cada el n\'{u}mero de edificios comenz\'{o} a aumentar considerablemente. Los pedidos de los clientes tend\'{i}an a sobrepar la capacidad de producci\'{o}n de la f\'{a}brica.
+	\item \underline{1974}. Lleg\'{o} a producir 7.850 unidades, inclusive escaleras mec\'{a}nicas.
+\end{enumerate}
+
+\section{Resumen del Funcionamiento}
+
+\subsection{Caracter\'{i}sticas del Sistema de Producci\'{o}n}
+\begin{itemize}
+	\item \emph{No} depende de proveedores para la fabricaci\'{o}n de los productos, es decir, es autosuficiente.
+	\item Producci\'{o}n diversificada debido a lo anterior, dando lugar a un complejo sistema de producci\'on en general.
+	\item Producci\'{o}n no estandarizada, debido a los diversos requerimientos de los clientes. Cuenta con pocas piezas estandarizadas.
+	\item El planeamiento tambi\'{e}n est\'a dificultado por el desarrollo tecnol\'ogico de la construcci\'on de diferentes lugares, dependiendo as\'i de condiciones que no se pueden preveer.
+	\item Equipo de producci\'{o}n y montaje dividido en 4 grupos(seg\'{u}n la secuencia en el orden de entrega de partes.)
+	\item Producci\'{o}n organizada por secciones:
+	\begin{enumerate}
+		\item M\'{a}quinas operativas.
+		\item Estampado.
+		\item Montaje de m\'{a}quinas.
+		\item Montaje de motores
+		\item Montaje de aparatos el\'{e}ctricos.
+		\item Montaje y conexi\'{o}n de cuadros de comando.
+		\item Carpinter\'{i}a, fabricaci\'{o}n de contrapesos, cabinas y 	puertas de acero.
+		\item Carpinter\'ia, cabinas, puertas y plataformas de madera.
+		\item Pintura y galvanoplast\'ia.
+	\end{enumerate}
+	\item Planeamiento de Producci\'{o}n
+	\begin{itemize}
+		\item En 1970, se basaba en proceso de reportes mensuales de campo del Departamento T\'{e}cnico formado en grupos.
+		\item Cada grupo responsable de una parte de la ciudad.
+		\item El Jefe de grupo estimaba futuras necesidades, volcando esto en un formulario de avances del mes, donde planificaba adem\'{a}s tiempos de entrega seg\'{u}n el proceso de producci\'{o}n mencionado antes.
+		\item  Se entregaba el formulario a un asistente(planeador) del Departamento de Producci\'{o}n.
+		\item El planeador con dichos formularios, elabora el programa de producci\'{o}n siguiendo una secuencia impuesta por el Departamento de Ventas(orden de entrada de los pedidos de los clientes)
+		\item El planeador tambi\'{e}n recibe ordenes de fabricaci\'{o}n individuales del Departamento de Ingenier\'{i}a, que contiene las especificaciones para producir el elevador.
+	\end{itemize}
+	\item Cuando la cantidad de elevadores producidos era baja comparada con la capacidad de producci\'{o}n el planeamiento era simple,eficaz y de f\'{a}cil control. 
+	\item Hacia 1970, los retrasos en las entregas hacian que:
+	\begin{itemize}
+		\item Jefes de campo fijaran plazos muy anticipados, haciendole perder el valor agregado del programador.
+		\item Falla en la comunicaci\'{o}n al momento de la par\'{a}lisis de las obras de un edificio, produciendo estancamiento de stock y as\'{i} generando grandes atrasos y malestar de los clientes.
+		\item Por todo esto el Departamento de Ventas sugiri\'{o} cambios en las prioridades de las ordenes de producci\'{o}n
+		\item Se abandon\'{o} la programaci\'{o}n que se llevaba hasta ese momento, dependiendo de las ordenes de venta del Departamento respectivo.
+	\end{itemize}
+\end{itemize}
+
+\newpage
+\section{Organigrama tentativo}
+Se detalla un organigrama parcial que se confecciona a partir de la informaci\'on proporcionada en la descripci\'on del caso.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{organigrama.png}
+\end{figure}
+
+\newpage
+\section{An\'{a}lisis del caso}
+
+\subsection{Marco Te\'orico}
+
+\subsubsection{Tipo de empresa}
+La empresa fue en sus comienzos probablemente una PyME, y a medida que aument\'o su tama\~no desarroll\'o su vida como una sociedad civil. En este sentido, si bien nunca fue una empresa familiar, su estructura y organizaci\'on iniciales fueron evolucionando gradualmente a lo que es en la actualidad, probablemente provocando los problemas de planeamiento observados. Es decir, si una empresa no sufre un proceso formal de dise\~no organizacional, es altamente probable que se encuentren deficiencias en su funcionamiento a medida que pasa el tiempo y aumenta su tama\~no. Por este motivo resulta conveniente la reestructuraci\'on que se propone la empresa al contratar una consultora.
+
+\subsubsection{Proceso de creaci\'on de valor}
+Una observaci\'on interesante es el amplio proceso de conversi\'on de insumos en productos. La empresa toma como insumos materias primas muy esenciales, para utilizar en fundici\'on, carpinter\'ia, torner\'ia, moldeado, rectificaci\'on, montaje, pintura, estampado y la final instalaci\'on de los productos. Una empresa de esta complejidad necesita una estructura s\'olida y una programaci\'on muy precisa para funcionar eficientemente.
+
+\subsubsection{Rasgos de pensamiento administrativo}
+Evidentemente la empresa evolucion\'o hacia el modelo de Taylor: en un principio delegaba en los empleados parte del planeamiento de producci\'on, quienes reportaban al planeador de producci\'on, que luego completaba la programaci\'on. Esto trajo problemas por dos motivos; uno de ellos los errores de relevamiento de dichos empleados, quienes omit\'ian reportar obras paralizadas y fijaban plazos de entrega muy anticipados para tratar de compensar los retrasos en las entregas (meti\'edose en una parte de la organizaci\'on que no era su responsabilidad); el otro motivo fue el aumento de la demanda, que hizo imposible continuar con este precario sistema. Se pasa entonces a trabajar segn \'ordenes de venta, lo cual hace el negocio menos previsible (quita la posibilidad reaccionar ante fluctuaciones en el mercado, la programaci\'on se hace a medida que se vende pero no se pronostica la potencial demanda futura).
+
+\subsection{Propuestas de Soluci\'on}
+
+\paragraph{Situaci\'on}
+La empresa se maneja en un ambiente muy cambiante, donde las variables externas (que no son controlables) son abundantes: los productos no son est\'andar, por ello no hay plan general de producci\'on (por la particularidad de cada producto vendido); el desarrollo tecnol\'ogico de la construcci\'on var\'ia segn el lugar de instalaci\'on de cada productos, etc.
+\paragraph{Soluci\'on}
+La empresa necesita un vuelco hacia el enfoque de contingencias, para adaptar las variables administrativas a las externas (que no son controlables.) En este sentido, se debe verificar que el personal administrativo cuente con el alcance temporal de la discreci\'on adecuado. Se debe adem\'on analizar el ambiente externo produciendo informaci\'on confiable para reducir el riesgo en la toma de decisiones. Por ejemplo, contratar una consultora, o abrir una nueva \'area de la empresa, dedicada a la estad\'istica y pron\'osticos de mercado.
+
+\paragraph{Situaci\'on}
+Se nombr\'o a cargo del Planeamiento de la Producci\'on a un antiguo supervisor en 1942. El nombramiento de esta persona no cumple con los requisitos del alcance temporal de la discreci\'on. Esto quiere decir que la persona no tiene la capacidad de predecir o anticipar el desarrollo de la tarea en el lapso de tiempo adecuado para tomar decisiones de planeamiento. Esto se ve reflejado en el siguiente parrafo de la descripci\'on del caso: "Los retrasos en las entregas de elevadores hicieron que los jefes de campo fijasen los plazos de entrega muy anticipados en sus informes mensuales. Con eso las informaciones recibidas por el programador, fueron perdiendo parte de su valor como base para la programaci\'on."\ El programador no es capaz de salvar esta circunstancia por s\'i mismo.
+\paragraph{Soluci\'on}
+Se propone situar en ese cargo a una persona que cumpla con los requerimientos que la posici\'on requiere. Alguien con experiencia y previsi\'on, que sea capaz de coordinar tiempos y tareas junto con el Area de Produccion.
+
+\paragraph{Situaci\'on}
+"Los pedidos de los clientes tend\'ian a alcanzar l\'imites que sobrepasaban la capacidad de producci\'on de la f\'abrica. Los atrasos en la entrega de pedidos llegaron al punto de provocar serios conflictos entre los departamentos de ventas y producci\'on."
+\paragraph{Soluci\'on}
+Se propone confeccionar o encargar algn an\'aisis de la industria de la construcci\'on, por ejemplo anual de ser adecuado, para ver qu\'e se espera para el a\~no pr\'oximo y manejar la inversi\'on en funci\'on de esta informaci\'on. Por ejemplo si se prev\'e un aumento muy importante en la cantidad de edificios a construirse puede invertirse en maquinaria para la producci\'on y/o aumentar la mano de obra.
+
+\paragraph{Situaci\'on}
+La diversificaci\'on de producci\'on produce gran parte del colapso del sistema, dado que se quiere abarcar gran cantidad de tareas de producci\'{o}n que no son pertinentes al objetivo de la empresa que es dise\~nar, construir e instalar elevadores. Sin embargo tiene la ventaja de tener capacidad de producci\'on propia y no depender de terceros, lo cual resulta interesante sobre todo cuando se trata de piezas no estandarizadas.
+\paragraph{Soluci\'on}
+Una posible soluci\'on es tercerizas la producci\'on de partes est\'andar. La contrapartida a esta soluci\'on es mejorar la programaci\'on para permitir el correcto funcionamiento del \'area de producci\'on, salvando el problema sin cerrar los talleres que producen las partes est\'andar. Podemos analizar los distintos costos de ambas alternativas. Al tercerizar la fabricaci\'on debe cerrarse un \'area de la empresa, debiendo prescindir de empleados de varios niveles, o mantenerlos en otro \'area de la empresa aumentando los costos de mano de obra; se perder\'ia parte de la inversi\'on en capacidad productiva de partes est\'andar, ya que seguramente ser\'a dif\'icil vender maquinaria especializada usada. El mejorar la programaci\'on conlleva costos de reorganizaci\'on en t\'erminos de personal administrativo para sostener un proceso burocr\'atico m\'as funcional que el actual; tal vez sea necesario una actualiaci\'on de los sistemas de informaci\'on de la empresa, lo cual puede ser un costo bastante alto. No se tiene seguridad de cu\'al es la mejor opci\'on, lo cual podr\'ia determinarse con mejor informaci\'on sobre qu\'e tan grande es el \'area de la empresa que deber\'ia cerrarse para comprar las partes tercerizadas, o qu\'e tanto debe reorganizarse la empresa para mejorar la programaci\'on de producci\'on.
+
+Para mejorar la programaci\'on de la producci\'on podr\'ia adoptarse un cronograma como el propuesto a continuaci\'on:
+\begin{enumerate}
+\item Se realiza un pedido de instalaci\'on desde una obra.
+\item Se analiza qu\'e partes son est\'andar y cu\'ales no (a cargo del Departamento de Ingenier\'{i}a a trav\'es del formulario de fabricaci\'on individual).
+\item Las partes est\'andar se solicitan a las empresas tercerizada (por el Departamento de Compras).
+	\begin{itemize}
+		\item Tener en cuenta que es conveniente contar con una red de proveedores, por si uno no puede producir que otra pueda hacerse cargo de una mayor parte de la producci\'on.
+	\end{itemize}
+\item Teniendo en cuenta el tiempo de fabricaci\'on propio (ensamble de partes, creaci\'{o}n de las propias, etc.) m\'as el de la entrega de las partes no comunes, se elaborar\'{a} el informe para la obra.
+\item En caso de par\'{a}lisis de obra, se evaluar\'{a} el tiempo del mismo, y se intentar\'ia la redistribuci\'{o}n de los semielaborados comunes en otras obras.
+\item Todas las semanas se confeccionar\'an informes del avance de cada obra en que se ha encargado una instalaci\'on.
+\item El Departamento de Ventas solo debe encargarse de la venta en s\'i y de los requerimientos iniciales, sin interferir en el resto del proceso.
+\end{enumerate}
+\end{document}
