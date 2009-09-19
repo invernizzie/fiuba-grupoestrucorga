@@ -1,0 +1,142 @@
+\documentclass[12pt,a4paper,spanish]{article}
+\usepackage[spanish]{babel}
+\usepackage [T1]{fontenc}
+\usepackage [latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array}
+	  \oddsidemargin 0in
+      \textwidth 6.75in
+      \topmargin 0in
+      \textheight 10.0in
+      \parindent 0em
+      \parskip 2ex
+\usepackage{anysize}
+\marginsize{3cm}{2cm}{1.0cm}{1.0cm}
+
+\pagestyle{plain}
+
+\begin{document} 
+\title{
+\begin{table}[!h]
+	\begin{tabular}{m{2cm}m{15cm}}
+		\multicolumn{1}{l}{}
+		 \includegraphics[scale=0.25, bb=0 0 0 0]{logo-fiuba.png} & 
+		 \begin{center}
+		 	\begin{LARGE}
+				Universidad de Buenos Aires	\linebreak \linebreak		 							Facultad de Ingenier\'{i}a  \linebreak \linebreak
+				7112 - Estrucutra de las Organizaciones \linebreak \linebreak
+				2do. Cuatrimestre de 2009
+			\end{LARGE}
+		 \end{center}\\
+\end{tabular}
+\end{table}
+\begin{Large}
+ \begin{center}
+		\underline{An\'{a}lisis Caso SST} \linebreak \linebreak
+        Grupo Nro:	R2
+\end{center}
+\end{Large}
+}
+\date{}
+\maketitle
+
+\thispagestyle{empty}
+
+\author{
+\begin{Large}
+\begin{center}
+		\underline{Integrantes}  \linebreak 
+\end{center}
+\end{Large}
+\begin{center}
+	\begin{tabular}{|| c | c | c ||}
+		\hline
+		\begin{large}Apellido,Nombre\end{large} & 
+		\begin{large}Padr\'{o}n Nro.\end{large} & 
+		\begin{large}E-mail\end{large}\\
+		\hline
+		Bruno Tom\'as & 88449 & tbruno88@gmail.com\\
+		\hline
+		Chiabrando Alejandra Cecilia & 86.863 & achiabrando@gmail.com\\
+		\hline
+		Fern\'{a}ndez Nicol\'{a}s  & 88.599 & nflabo@gmail.com\\
+		\hline
+		Invernizzi Esteban Ignacio & 88.817 & invernizzie@gmail.com\\
+		\hline
+		Medbo Vegard & \- & vegard.medbo@gmail.com\\
+		\hline
+		Meller Gustavo Ariel & 88.435 & gustavo\_meller@hotmail.com\\
+		\hline
+		Mouso Nicol\'as & 88.528 & nicolasgnr@gmail.com\\
+		\hline
+		Mu\~noz Facorro Juan Mart\'in & 84.672 & juan.facorro@gmail.com\\
+		\hline
+		Wolfsdorf Diego & 88.162 & diegow88@gmail.com\\
+		\hline
+	\end{tabular}
+\end{center}
+}
+
+\newpage
+\setcounter{page}{1}
+\tableofcontents
+
+\newpage
+\section{Historia de la Empresa}
+S-S Technologies Inc. se constituy\'{o} en 1992 cuando la  compa\~{n}\'{i}a constructora y de ingenier\'{i}a integrada Sutherlaud- Schultz, de la cual formaba parte, cambi\'{o} de propietarios y los nuevos due\~{n}os vendieron la parte de SST al ex presiden de la Sutherlaud- Schultz, Brock. La compa\~{n}\'{i}a era de  propiedad 100 por ciento canadiense. En \'{u}ltima instancia, SST era propiedad de su director general, Rick Brock, ex presidente de Sutherland-Schultz, y de Keith Pritchard, presidente de SST. 
+En enero de 1994 la compa\~{n}\'{i} enfrentaba un r\'{a}pida tasa de crecimiento que se estimaba pod\'{i}a duplicarse o triplicarse en los dos a\~{n}os siguientes. En los \'{u}ltimos 3 a\~{n}os se hab\'{i}a percibido un crecimiento promedio de 33 por ciento anual y se esperaba un crecimiento de 30 a 60 o incluso 120 empleados.
+
+\subsection{Avance Cronol\'{o}gico de la empresa}
+\begin{enumerate}
+	\item \underline{1992}. Se constituye la compa\~{n}\'{i}a al venderse la parte correspondiente a Brock. 
+	\item \underline{1993}. Se perciben ingresos por 6.3 millones de d\'{o}lares.
+	\item \underline{1994}. Se estima un crecimiento que duplique o triplique al del a\~{n}o anterior.
+\end{enumerate}
+
+\section{Resumen del Funcionamiento}
+
+\subsection{Caracter\'{i}sticas del Sistema de Producci\'{o}n}
+\begin{itemize}
+	\item La p oducci\'{o}n se divide en dos grupos: productos y sistemas integrados:
+	\begin{enumerate}
+		\item Productos participaba del desarrollo y venta de productos de hardware y sofware propios de la compa\~{n}\'{i}a, los cuales se vend\'{i}an por todo el mundo. Los mismos comprend\'{i}an las tarjetas simuladoras Direct-Link y el simulador PICS, los cuales peresentaban una soluci\'{o}n a un problema que ninguna otra compa\~{n}\'{i}a pod\'{i}a resolver.
+		\item El grupo de sistemas integrados trabajaba en tres \'{a}reas distintas pero interrealacionadas: consultor\'{i}a, ingenier\'{i}a de sistemas y soporte a clientes brindando soluciones de calidad a problemas de hardware y software a complejos sistemas de pisos de f\'{a}bricas.
+		\end{enumerate} 
+	\item Ante la recesi\'{o}n, la compa\~{n}\'{i}a se ve beneficiada ya que brinda soluciones que permiten reducir los costos de automatizaci\'{o}n de las plantas y por ende los costos de producci\'{o}n.
+	\item Se ten\'{i}a un enfoque de consultor\'{i}a que permit\'{i}a que quienes participaban tuvieran facultades de decisi\'{o}n y llevaba a apropiarse de los problemas y sus soluciones.
+	\item Los proyectos eran asignados a individuos o equipos, seg\'{u}n el tama\~{n}o, los cuales eran autoadministrados. La responsabilidad de los proyectos reca\'{i}a en los integrantes del grupo generando un alta motivaci\'{o}n.
+	\item La organizaci\'{o}n era austera, manteniendo los recursos indirectos al m\'{i}nimo.
+	\item El principal recurso de la empresa lo representaba su capital humano formado de equipos muy competentes, t\'{e}cnicos y motivados. El personal t\'{e}cnico era l\'{i}der en su campo.
+	\item Otro recurso era su excelente reputaci\'{o}n y relaci\'{o}n con un gran fabricante canadiense.
+	\item La empresa estaba adelantada en la curva de apredizaje, habiendo enfrentado varios desaf\'{i}os, los cuales pudo resolver con \'{e}xito.
+\end{itemize}
+
+\newpage
+\section{An\'{a}lisis del caso}
+
+\subsection{Marco Te\'orico}
+
+\subsubsection{Dise\~{n}o administrativo}
+Si bien tiene un organigrama definido, la mayor parte de las relaciones que se dan en la misma son de car\'{a}cter informal. Se conforman grupos de trabajo con mecanismo coordinador de ajuste mutuo sobre los que recae la responsabilidad de las tareas que llevan a cabo. La forma de reportar no respeta el organigrama sino que se da de acuerdo a relaciones informales o costumbre.
+
+\subsubsection{Rasgos de pensamiento administrativo}
+La empresa presta especial atenci\'{o}n a las ciencias del comportamiento. Se busca que todos los empleados participen y sientan que todas sus necesidades se encuentran satisfechas a la vez que se valora la motivaci\'{o}n y el compromiso. Las relaciones informales cobran especial importancia con el sistema de comunicaci\'{o}n abierto que se implementa.
+
+\subsection{Propuestas de Soluci\'on}
+
+\paragraph{Situaci\'on}
+Los empleados no tienen en claro las metas y estrategias de la empresa. Las funciones y responsabilidades de los distintos puestos resultan confusas.
+\paragraph{Soluci\'on}
+Un abuso de las relaciones informales y poco respeto al organigrama genera que los empleados no reporten a quien deber\'{i}an generando caos. Deber\'{i}a utilizarse un enfoque burocr\'{a}tico a fin de definir la autoridad, funciones y responsabilidades de los distintos puestos y dejar en claro la jerarqu\'{i}a de los cargos. Aquellas personas en puestos de autoridad deber\'{i}an exigir que se cumplan estas relaciones.
+
+\paragraph{Situaci\'on}
+La compa\~{n}\'{i}a hab\'{i}a crecido tanto que resultaban insuficientes las instalaciones que compart\'{i}a con otras empresas. Como no se quer\'{i}a separar al personal, se agreg\'{o} un remolque para ubicar al personal adicional.
+\paragraph{Soluci\'on}
+Se propone la b\'{u}squeda de un edificio con mayor disponibilidad de instalaciones a fin de que todos los empleados puedan trabajar en un lugar c\'{o}modo sin que sea necesaria la divisi\'{o}n del mismo. 
+\paragraph{Situaci\'on}
+Conflicto generado por bonos y compensaciones
+\paragraph{Soluci\'on}
+Se propone que la empresa realice evaluaciones individuales de performance del personal. Para esto es necesario que se defina y respete un organigrama a fin de que quede en claro qui\'{e}n estar\'{a} siendo evaluado por qui\'{e}n. Los mismos solo deberan premiar un excelente desempe\~{n} y preferentemente ser entregados a equipos de personal a fin de fomentar la cooperaci\'{o}n y limitar la competencia interpersonal. Tambi\'{e}n debe considerarse entregar premios adicionales por contribuciones excepcionales.
+
+\end{document}
